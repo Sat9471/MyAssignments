@@ -53,7 +53,7 @@ public class DuplicateLead {
 		driver.findElement(By.id("createLeadForm_description")).click();
 		
 		// 13. Enter your email in the E-mail address Field using the locator of your choice
-		driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("sathishthiru94@outlook.com");
+		driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("abc2023@outlookgmail.com");
 		
 		// 14. Click on Create Button
 		driver.findElement(By.className("smallSubmit")).click();
